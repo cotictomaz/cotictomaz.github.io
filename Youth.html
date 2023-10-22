@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="stile.css">
+        <title> Luka Dončic </title>
+    </head>
+    <body class="secondary">
+        <div id="myMenu" class="menu">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="sito.html">Home</a>
+            <a href="Youth.html">Youth</a>
+            <a href="Career.html">Career</a>
+        </div>
+        <span style="font-size:30px;cursor:pointer;color: beige;" onclick="openNav()"><!-- Questo è per le tre righe-->&#9776; Menu</span>
+        <div class="secondary">
+        <h2>Luka's youth</h2>
+        <p>Dončic was born in Ljubljana, the capital city of Slovenia. A really
+            small country with a little more than two million habitants. His father was a former
+            basketball player and coach, so Dončic's first contact with a basketball ball was pretty early.
+            He first started playing at age seven and fastly proved that he was a prodigee in the making.
+            The young ascending star made himself known in the basketball world and caught the attention 
+            of one of the best clubs in Europe: <b>Real Madrid</b>. In the spanish capital his rise and his professional career began.
+            <br>
+            He was always very grateful to the club for giving him the opportunity to grow in such an amazing
+            player he became. He showed his love for the club in many interviews, like this one:
+        </p>
+            <iframe src="https://www.realmadrid.com/en/news/2023/10/10/doncic-real-madrid-has-given-me-everything"></iframe>         
+            <img src="https://cdn0.vox-cdn.com/thumbor/LflytEZa3FSfUjWOjG8qXPAtOY8=/0x302:4256x2530/fit-in/1200x630/cdn3.vox-cdn.com/uploads/chorus_asset/file/8766061/gettyimages_652544198.jpg">
+        </div>
+        
+    </body>
+    <script>
+        function openNav() {
+        document.getElementById("myMenu").style.width = "250px";
+        }
+        function closeNav() {
+         document.getElementById("myMenu").style.width = "0";
+        }
+    </script>    
+</html>
